@@ -2,7 +2,7 @@
 
 ## Discover OpenAI-compatible LLM endpoints
 
-<img src="images/llm-seeker.png" alt="llm-seeker" width="400">
+<img src="images/llm-seeker.png" alt="llm-seeker" width="700">
 
 ### Install
 ```
