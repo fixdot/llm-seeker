@@ -10,15 +10,14 @@ llm-seeker is a tiny CLI utility that discovers OpenAI-compatible LLM endpoints 
 Useful when working with Ollama, LM Studio, vLLM, or any local LLM server.
 
 ### Install
-Requires Go.
-Install with:
+Requires Go. Install:
 
 ```bash
 go install github.com/fixdot/llm-seeker@latest
 ```
 
 ### Usage
-Ensure your local OpenAI-compatible LLM server is running.
+Make sure your local OpenAI-compatible LLM server is running.
 ```bash
 llm-seeker
 ```
