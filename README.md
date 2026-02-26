@@ -5,7 +5,7 @@
 <img src="images/llm-seeker.png" alt="llm-seeker" width="700">
 
 ### Install
-```
+```bash
 Requires Go.
 Install:
 go install github.com/fixdot/llm-seeker@latest
@@ -13,14 +13,18 @@ go install github.com/fixdot/llm-seeker@latest
 
 ### Usage
 
-```
+```bash
 Ensure your local OpenAI-compatible LLM server is running.
 llm-seeker
 ```
 
 ### Example output
-http://localhost:11434/v1  
+```text
+http://localhost:11434/v1
 http://127.0.0.1:11434/v1
+```
+
+
 
 ### Exit codes
 
