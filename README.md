@@ -6,7 +6,7 @@
 
 ### Overview
 
-llm-seeker is a tiny CLI utility that discovers OpenAI-compatible LLM endpoints on your machine.
+llm-seeker is a tiny CLI utility that automatically discovers OpenAI-compatible LLM endpoints on your machine.
 Useful when working with Ollama, LM Studio, vLLM, or any local LLM server.
 
 ### Install
