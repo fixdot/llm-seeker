@@ -5,16 +5,14 @@
 <img src="images/llm-seeker.png" alt="llm-seeker" width="700">
 
 ### Install
-```bash
 Requires Go.
-Install:
+```bash
 go install github.com/fixdot/llm-seeker@latest
 ```
 
 ### Usage
-
-```bash
 Ensure your local OpenAI-compatible LLM server is running.
+```bash
 llm-seeker
 ```
 
