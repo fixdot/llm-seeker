@@ -10,7 +10,7 @@ llm-seeker is a tiny CLI utility that automatically discovers OpenAI-compatible 
 Useful when working with Ollama, LM Studio, vLLM, or any local LLM server.
 
 ### Install
-Requires Go.  
+Requires Go 1.18+  
 Install:
 
 ```bash
