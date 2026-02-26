@@ -14,6 +14,7 @@ Requires Go. Install:
 
 ```bash
 go install github.com/fixdot/llm-seeker@latest
+Binary will be installed to: $GOPATH/bin (usually ~/go/bin)
 ```
 
 ### Usage
