@@ -19,7 +19,7 @@ llm-seeker
 ```
 
 ### Example output
-http://localhost:11434/v1
+http://localhost:11434/v1  
 http://127.0.0.1:11434/v1
 
 ### Exit codes
