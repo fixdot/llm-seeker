@@ -2,6 +2,31 @@
 
 All notable changes to this project will be documented in this file.
 
+---
+
+## 0.2.0 — 2026-04-05
+
+### Changed
+- Finalized output behavior:
+  - Default: returns only the first detected base URL
+  - `--env`: returns a single export line for the first match
+  - `LLM_SEEKER_ORDER`: enables listing mode with provider labels
+- Clarified role of `LLM_SEEKER_ORDER`:
+  - Acts as both priority and provider filter
+  - Takes precedence over `LLM_SEEKER_PORTS`
+
+### Added
+- Explicit invalid input handling:
+  - `llm-seeker: invalid input`
+
+### Improved
+- Help output clarity:
+  - Output modes documented
+  - ORDER behavior explicitly described
+
+### Notes
+- No changes to detection logic or performance
+- First stable public release
 
 ---
 

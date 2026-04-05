@@ -90,3 +90,54 @@ fast default execution.
 - Stable Foundry detection when explicitly requested.
 - Automatic recovery when Foundry restarts with a new port.
 - Improved overall architectural clarity.
+
+---
+
+## 0.2.0 — 2026-04-05
+
+### Background
+
+After stabilizing Foundry detection in beta3,
+overall design and behavior were reviewed for consistency and simplicity.
+
+The focus of this version was not feature expansion,
+but solidifying the CLI behavior and interface.
+
+### Changes
+
+1. Finalized output behavior
+
+   - Default: returns only the first detected base URL
+   - `--env`: returns a single export line for the first match
+   - `LLM_SEEKER_ORDER`: enables listing mode with provider labels
+
+2. Clarified environment variable roles
+
+   - `LLM_SEEKER_ORDER` now acts as:
+     - scan priority
+     - provider filter
+     - listing mode trigger
+   - Takes precedence over `LLM_SEEKER_PORTS`
+
+3. Improved CLI error handling
+
+   - Invalid input is now explicitly reported:
+     llm-seeker: invalid input
+
+4. Refined help output
+
+   - Output modes clearly documented
+   - ORDER behavior explicitly described
+
+### Result
+
+- Behavior is fully deterministic and predictable
+- CLI interface is consistent and minimal
+- No unnecessary features added
+- Stable release-ready version
+
+### Notes
+
+- No changes to detection logic or performance characteristics
+- Foundry handling remains opt-in and stable
+- This version marks the first stable public release
