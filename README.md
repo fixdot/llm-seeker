@@ -2,7 +2,8 @@
 
 ## Automatically discover OpenAI-compatible LLM endpoints on your machines
 
-<img src="images/llm-seeker.png" alt="llm-seeker" width="700">
+
+<img src="images/llm-seeker.png" alt="llm-seeker" width="992">
 
 ## Overview
 
